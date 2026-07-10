@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# YOLO weights download automatically on first run
+*.pt
+
+# Streamlit
+.streamlit/

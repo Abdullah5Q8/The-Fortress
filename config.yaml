@@ -1,0 +1,25 @@
+system:
+  mode: "SIMULATION" # Change to "PRODUCTION" on Raspberry Pi
+
+mqtt:
+  broker: "localhost"
+  port: 1883
+  topics:
+    security: "home/security"
+    automation: "home/automation"
+    biosphere: "home/biosphere"
+
+location:
+  lat: 29.3759  # Kuwait City
+  long: 47.9774
+
+camera:
+  index: 0
+  model_path: "yolov8n.pt"
+
+gpio:
+  # BCM Pin Numbers
+  relay_lock: 17
+  relay_shaker: 27
+  servo_feeder: 18
+  stepper_pins: [22, 23, 24, 25]

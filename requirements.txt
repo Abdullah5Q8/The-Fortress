@@ -1,0 +1,8 @@
+opencv-python-headless>=4.8.0
+ultralytics>=8.0.0
+paho-mqtt>=1.6.1
+requests>=2.31.0
+streamlit>=1.25.0
+pyyaml>=6.0
+spidev>=3.6  # Comment this out if testing on Windows
+RPi.GPIO>=0.7.1 # Comment this out if testing on Windows
